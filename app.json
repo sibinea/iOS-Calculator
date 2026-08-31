@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Simple Calculator",
+    "slug": "simple-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sibin.calculator"
+    },
+    "android": {
+      "package": "com.sibin.calculator",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#000000",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "android": {
+            "backgroundColor": "#000000"
+          },
+          "ios": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8e2e59e1-52d0-48ba-bbe8-bba8c889cb9f"
+      }
+    }
+  }
+}
