@@ -51,9 +51,3 @@ Native startup on physical hardware will vary by device class:
 - Older devices: lazy keypad + animation fallback reduce jank
 
 For on-device profiling, use React Native Performance Monitor or Xcode Instruments during a release build.
-
-## Recommendations
-
-- Prefer release builds for final startup measurements (`eas build` or `npx expo run:ios --configuration Release`).
-- Keep assets SVG-based if icons are added later; current build uses text-only buttons.
-- Re-run `npm test -- performance.test.ts` after any calculator logic changes.
